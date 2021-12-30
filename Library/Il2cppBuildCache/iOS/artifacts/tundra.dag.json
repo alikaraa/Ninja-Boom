@@ -1,0 +1,167 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp /Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput\" --stats-output-dir=\"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppStats\"",
+      "Inputs": [
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/alikara/Desktop/Unity Projects/Boom/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "\"/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
+      ],
+      "Outputs": [
+        "/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Copy Additional C++ File /Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Inputs": [
+        "/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+      ],
+      "Outputs": [
+        "/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Copy Additional C++ File /Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Inputs": [
+        "/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+      ],
+      "Outputs": [
+        "/Users/alikara/Desktop/Unity Projects/Boom/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../../../Library"
+    },
+    {
+      "File": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
